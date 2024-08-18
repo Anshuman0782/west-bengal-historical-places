@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to West Bengal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: 'Georgia', serif;
+        }
+
+        fieldset {
+            border: 2px solid #003366;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #e6f2ff;
+        }
+
+        legend {
+            font-size: 1.5em;
+            color: #003366;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #cce0ff;
+        }
+
+        .abc {
+            float: right;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 0 20px 20px;
+            overflow-y: auto;
+            height: 600px; /* Set a fixed height to enable vertical scrolling */
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            position: relative;
+        }
+
+        .abc img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #003366;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: block; /* Ensures images are block elements */
+        }
+
+        .scroll-comment {
+            font-size: 1em;
+            color: #003366;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Custom scrollbar styles */
+        .abc::-webkit-scrollbar {
+            width: 16px; /* Width of the scrollbar */
+        }
+
+        .abc::-webkit-scrollbar-track {
+            background: #f1f1f1; /* Background of the scrollbar track */
+            border-radius: 10px;
+        }
+
+        .abc::-webkit-scrollbar-thumb {
+            background: #888; /* Color of the scrollbar thumb */
+            border-radius: 10px;
+        }
+
+        .abc::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color of the scrollbar thumb on hover */
+        }
+
+        @media (max-width: 768px) {
+            .abc {
+                float: none;
+                width: 100%;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to West Bengal</h1>
+        <div class="abc">
+            <fieldset>
+                <legend>West Bengal Famous Historical Places</legend>
+                <div class="scroll-comment">Click the images for more details</div>
+                <!--1--> 
+                <h3 style="text-align: center;">Victoria Memorial</h3>
+                <a href="vic.html">
+                    <img src="img1.jpg" alt="Victoria Memorial">
+                </a>
+                <!--2--> 
+                <h3 style="text-align: center;">Indian Museum Kolkata</h3>
+                <a href="museum.html">
+                    <img src="img2.jpg" alt="Indian Museum Kolkata">
+                </a>
+                <!--3-->  
+                <h3 style="text-align: center;">Murshidabad</h3>
+                <a href="murshidabad.html">
+                    <img src="img3.jpg" alt="Murshidabad">
+                </a>
+                <!--4-->  
+                <h3 style="text-align: center;">Bishnupur</h3>
+                <a href="bishnupur.html">
+                    <img src="img4.jpg" alt="Bishnupur">
+                </a>
+                
+            </fieldset>
+        </div>
+        <fieldset>
+            <legend>About West Bengal</legend>
+            <p>
+                West Bengal is a state in eastern India, between the Himalayas and the Bay of Bengal. Its capital,
+                Kolkata (formerly Calcutta), retains architectural and cultural remnants of its past as an East 
+                India Company trading post and capital of the British Raj. The city's colonial landmarks include 
+                the government buildings around B.B.D. Bagh Square, and the iconic Victoria Memorial, dedicated 
+                to Britain's queen.
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Famous Food of West Bengal</legend>
+            <p>
+                1. Aloo Potol Posto.<br>
+                2. Ilish Macher Jhol.<br>
+                3. Shukto.<br>
+                4. Sandesh.<br>
+                5. Mutton Biryani.<br>
+                6. Alur Dom.<br>
+                7. Luchi.<br>
+                8. Chholar Dal.<br>
+                9. Mishti Doi.<br>
+                10. Patishapta.
+            </p>
+        </fieldset>
+        <a href="others.html">Explore More</a>
+    </div>
+</body>
+</html>

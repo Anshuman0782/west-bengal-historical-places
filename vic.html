@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Memorial</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .mainheading {
+            font-size: 2.5em;
+            font-family: 'Georgia', serif;
+            color: #003366;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border: 2px solid #003366;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        fieldset {
+            border: 2px solid #003366;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #e6f2ff;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        legend {
+            font-size: 1.5em;
+            color: #003366;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #cce0ff;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+            background-color: #f5e50b;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: 2px solid #003366;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ec4427;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .mainheading {
+                font-size: 2em;
+            }
+
+            fieldset {
+                max-width: 100%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mainheading">Victoria Memorial</h1>
+        <img src="img1.jpg" alt="Victoria Memorial">
+
+        <fieldset>
+            <legend>History Of Victoria Memorial:</legend>
+            <p>The Victoria Memorial is a large marble building on the Maidan in Central Kolkata, having its entrance on the Queen's Way. It was built between 1906 and 1921 by the British government. It is dedicated to the memory of Queen Victoria, Empress of India from 1876 to 1901. It is the largest monument to a monarch anywhere in the world, standing in 64 acres of gardens and is now a museum under the control of the Ministry of Culture. Possessing prominent features of the British architecture of the colonial era, it has evolved into one of the most popular places in the city.</p>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Victoria Memorial Famous For:</legend>
+            <p>Representing the resplendent and majestic British architecture, Victoria Memorial Hall stands today as a veritable icon of the city of Kolkata. Located on 1 Queen's Way, the VMH was envisaged by Lord Curzon, the Viceroy of British India, as a memorial to the deceased Queen Victoria.</p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Details</legend>
+            <h4>For More Details Click Here:</h4>
+            <a href="https://victoriamemorial-cal.org/home/content/en">More</a>
+        </fieldset>
+    </div>
+</body>
+</html>
